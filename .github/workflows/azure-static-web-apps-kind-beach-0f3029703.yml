@@ -31,6 +31,7 @@ jobs:
           app_location: "./src/Cloud5mins.ShortenerTools.TinyBlazorAdmin" # App source code path
           api_location: "./src" # Api source code path - optional
           output_location: "wwwroot" # Built app content directory - optional
+          deployment-token: cad86deba4c4a2c8e467fd9004c9e1eb43bb2f50331e5c3e1c1a52bcdd39854b04-915ce0e0-044a-415d-b58d-a3d11485909800322020f3029703
           ###### End of Repository/Build Configurations ######
 
   close_pull_request_job:
